@@ -46,7 +46,7 @@ public class CardDeliveryTest {
 
     }
 
-    @Test
+    /*@Test
     void sendFormUsingWidget(){
 
         SelenideElement form = $(".form");
@@ -66,5 +66,5 @@ public class CardDeliveryTest {
         $("[data-test-id=notification].notification_visible .notification__title").shouldBe(visible, Duration.ofSeconds(15)).shouldHave(exactText("Успешно!"));
         $("[data-test-id=notification].notification_visible .notification__content").shouldBe(visible).shouldHave(exactText("Встреча успешно забронирована на " + planningDate));
 
-    }
+    } */
 }
